@@ -1,3 +1,10 @@
 # lekcjePythona
 
 Małe ćwiczenia i przykłady podczas korepetycji z Pythona, których udzielam ;) 
+
+Lekcja 1. - sasiad.py - propozycja kawy lub herbaty
+  Pierwsza zmienna, 'sasiad', będzie przechowywać to co użytkownik wpisał z klawiatyry. Wczytywanie z klawiatury odbywa się przez użycie: raw_input("Podaj imię: "), np.: sasiad = raw_input("Podaj imię: "), gdzie tekst "Podaj imię: " może być dowolnym zdaniem, tylko musi być ujęty w cudzysłów, raw_input - WYMAGANY, żeby przeczytać to co użytkownik napisał, sasiad - dowolna nazwa, która będzie "słoiczkiem" dla wpisanych słów.
+  Wypisanie przywitania sąsiada, poprzez - print "Witaj moj drogi sasiedzie, ", sasiad - gdzie sasiad, to zmienna, "słoiczek", z której bierzemy imię sąsiada (tak, ta sama, którą uzupełnia się przez raw_input), następnie przecinek (o taki znak - "," ;) ), "łamię", rozdziela, tekst, przed przecinkiem i zmienna sasiad, jest koniecznie w cudzysłowiu, formółka, którą przywitamy sąsiada, może to być dowolne zdanie, przed tym wszystkim wstawiamy print, czyli wypisz, wszystko za tym wyrazem zostanie pokazane na ekramie.
+  Następne pytanie o preferowany napój i kolejna zmienna, która przechowuje odpowiedź o napój.
+  Sprawdzenie gustu, odnośnie napoju, sprawdza się w instrukcji warunkowej if-elif-else, pierwsze sprawdzenie, if napoj == "herbata":, to sprawdzenie czy odpowiedzia jest herbata, ważne jest, że oczekiwana odpowiedź jest w cudzysłowiu, sprawdzenie odbywa się poprzez 2 (słownie dwa) znaki równości i na końcu jest dwókropek, drógie sprawdzenie, elif napoj == "kawa":, podobna konstrukcja jednak zamiast słówka 'if' występuje 'elif', jest to skrut od 'else if', ma to zasygnalizować, że w przypadku gdy pierwszy warunek jest fałszywy, błędny (nalpój nie jest herbatą), to następuje sprawdzenie czy jest kawą, takich 'elif' może być kilka, ostatni element - else: - ten przypadek zostanie wykonany gdzy wszystkie inne, powyższe warunku będą błędne.
+  Warunek - elif napoj == "kawa": - posiada w swoim "ciele" inną instrukcję if-else, działa tak samo jak wyżej opisana, jedynie element 'elif' nie został tu wykożystany.
